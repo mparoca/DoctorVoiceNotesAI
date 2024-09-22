@@ -1,0 +1,11 @@
+conda create -n doctorvoiceai python=3.12
+conda activate doctorvoiceai
+pip install openai-whisper transformers spacy hl7
+pip install torch torchvision torchaudio
+pip install openai
+pip install python-dotenv
+
+
+# Install ffmpeg (For Linux)
+sudo apt update
+sudo apt install ffmpeg
